@@ -38,6 +38,11 @@ section .container .box h2 {
   font-size: 22px;
 }
 
+section .container .box h3 {
+  font-weight: 100;
+  color: #606060;
+}
+
 @media (max-width: 1024px) {
   section .container {
     grid-template-columns: repeat(3, 1fr);
